@@ -1,0 +1,14 @@
+#landing_section {
+  background-color: black;
+}
+
+.intro-title {
+  color: white;
+}
+
+.name-title {
+  background: linear-gradient(45deg, blue, red);
+  /* color: green; */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
