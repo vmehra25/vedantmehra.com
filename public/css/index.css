@@ -11,6 +11,13 @@ body {
   background-color: black;
 }
 
+#timeline {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
 .intro-title {
   color: white;
 }
@@ -30,5 +37,9 @@ body {
 }
 
 .project-tile {
-  background-color: #fafafa;
+  background-color: var(--white_foreground);
+}
+
+.tile {
+  background-color: var(--white_foreground);
 }
