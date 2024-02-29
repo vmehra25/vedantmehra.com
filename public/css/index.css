@@ -43,3 +43,19 @@ body {
 .tile {
   background-color: var(--white_foreground);
 }
+
+.moving-text {
+  position: absolute;
+  white-space: nowrap;
+  animation: moveLeftToRight 4s linear infinite alternate;
+  z-index: 1000;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    left: 15%;
+  }
+  100% {
+    left: 75%;
+  }
+}
